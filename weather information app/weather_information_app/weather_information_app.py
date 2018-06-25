@@ -62,10 +62,7 @@ if weather["icon"] == "rain":
     print("..." + "Take an Umbrella")
 else:
     pass
-if float(weather["temperature"]) > 70:
-    print("..." + " Wear Your T-Shirt And Shorts")
-else:
-    print("..." + "Wear Your Long Sleeves And Pants")
+
 print("Have a Good Day!")
 
 print("-------------------------------------")
