@@ -58,10 +58,7 @@ print("....." + "icon: " + weather["icon"])
 print("....." + "temperature: " + "{0:,.2f}".format(weather["temperature"]))
 print("-------------------------------------")
 print("Suggestion: ")
-if weather["icon"] == "rain":
-    print("..." + "Take an Umbrella")
-else:
-    pass
+
 if float(weather["temperature"]) > 70:
     print("..." + " Wear Your T-Shirt And Shorts")
 else:
