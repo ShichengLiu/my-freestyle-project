@@ -1,0 +1,6 @@
+weather_information_sample = {'time': 1529874290, 'summary': 'Mostly Cloudy', 'icon': 'partly-cloudy-day',
+                              'nearestStormDistance': 14, 'nearestStormBearing': 78, 'precipIntensity': 0,
+                              'precipProbability': 0, 'temperature': 80.23, 'apparentTemperature': 82.68,
+                              'dewPoint': 67.35, 'humidity': 0.65, 'pressure': 1007.73, 'windSpeed': 5.79,
+                              'windGust': 6.8, 'windBearing': 208, 'cloudCover': 0.66, 'uvIndex': 2,
+                              'visibility': 9.84, 'ozone': 313.75}
