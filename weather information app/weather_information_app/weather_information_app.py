@@ -36,13 +36,6 @@ longitude_latitude = lon_lat2[0:7]
 latitude = longitude_latitude[0]
 longitude = longitude_latitude[1]
 
-if __name__ == '__main__':
-
-    load_dotenv()
-
-    api_key = os.environ.get("ALPHAVANTAGE_API_KEY") or "OOPS. Please set an environment variable named 'ALPHAVANTAGE_API_KEY'."
-
-
 
 
 
