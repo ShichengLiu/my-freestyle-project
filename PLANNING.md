@@ -22,18 +22,21 @@ When students go to school, or go out for events, they need to know the informat
 
 1. Suggestion for dressing
 
-2. A weather.csv file containing the latest 7-day weather forecast information
+2. Current Weather information including temperature and weather summary
 
 ## Technology Requirements
 
 ### APIs and Web Service Requirements
 
-I thought I might need to use the API that can get weather information of specific city.
+Use website GeoNames to get the state information and Zipcode.
+Use Dark Sky API to get weather information.
+
 
 ### Python Package Requirements
 
-The application requires  third-party packages: json, pandas, requests, BeautifulSoup, csv.
+The application requires  third-party packages: os, json, pandas, requests, BeautifulSoup, csv.
 
 ### Hardware Requirements
 
 Please install Python 3.6 to use this application.
+Please apply an API key of  Dark Sky API and set user's environment variables.
