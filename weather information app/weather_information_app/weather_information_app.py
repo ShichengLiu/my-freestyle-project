@@ -64,5 +64,8 @@ else:
     pass
 
 print("Have a Good Day!")
-
+if float(weather["temperature"]) > 70:
+    print("..." + " Wear Your T-Shirt And Shorts")
+else:
+    print("..." + "Wear Your Long Sleeves And Pants")
 print("-------------------------------------")
